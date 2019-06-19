@@ -1,7 +1,7 @@
 ---
 title: "\nPersonalisation Algorithms &<br>Extremist Content Online"
 subtitle: 'Dr Alastair Reed <a href="https://twitter.com/reed_alastair">@reed\\_alastair</a><br>Joe Whittaker <a href="https://twitter.com/CTProject&#95;JW">@CTProject\\_JW</a><br>Fabio Votta <a href="https://twitter.com/favstats">@favstats</a><br>Seán Looney <a href="https://twitter.com/&#95;Sean_Looney&#95;">@\\_Sean\\_Looney\_</a>'
-date: "<br>26th June 2019<br>Slides available here:<br>[xrw_and_algorithms.netlify.com](http://www.xrw_and_algorithms.netlify.com)"
+date: "<br>26th June 2019<br>Slides available here:<br>[xrw-and-algorithms.netlify.com](http://www.xrw-and-algorithms.netlify.com)"
 output:
   xaringan::moon_reader:
     lib_dir: libs
