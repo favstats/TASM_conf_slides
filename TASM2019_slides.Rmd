@@ -208,7 +208,7 @@ knitr::include_graphics("images/youtube.png")
 
 .pull-right[
 
-Of the 1443 videos coded on YouTube
+Of the 1443 videos coded on YouTube (749 unique)
 
 + 949 (65.77%) moderate
 + 409 (28.34%) fringe 
@@ -309,21 +309,20 @@ knitr::include_graphics("images/Gab-Logo.jpg")
 ```
 
 .pull-left[
-![](images/emi_reddit_props.png)
+![](images/gab_overview.png)
 ]
 
 
 .pull-right[
 
 
+*Different setup due to technical difficulties*
+
 3 Different News Feeds: “Popular”, “Controversial”, and “Latest”
 
 3 Topics: “Politics”, “News”, “Humour”
 
-Collected data over three sessions
-
-Coded against Holbrook’s (2015) Extremist media Index
-
+Collected data over five sessions
 
 
 1271 Rated posts (746 unique)
@@ -416,16 +415,23 @@ class: center, middle, inverse
 
 .pull-left[
 + Content which does not clearly violate site rules or policies
+
 + Google’s “limited features” policy
+
 + Reddit’s “Quarantine” System
+
 + Opt in content
+
 + No monetisation or recommendation
+
 + Constructive balance between freedom of speech and harmful content.
+
 + Need for Clarity and Consistency 
 ]
 
 .pull-right[
-
+![](images/yt_offensive.png)
+![](images/reddit_offensive.png)
 ]
 
 ---
@@ -434,11 +440,21 @@ class: center, middle, inverse
 
 **Ensuring Video Recommendations are from Quality Sources**
 
+
+.pull-left[
 + Provide users with more context and alternative perspectives
+
 + Google introduced changes to make quality count and give more context to searches.
+
 + Provide high quality sources on the same topic
+
 + Jigsaw’s redirect method as a model.
+]
 
+
+.pull-right[
+![](images/redirect.png)
+]
 
 ---
 
@@ -446,30 +462,48 @@ class: center, middle, inverse
 
 **Greater Transparency**
 
+
+.pull-left[
 + Users should have a clear option to request why content has been recommended to them.
-+ Opportunity for Explainable AI
-+ Facebook’s “Why am I seeing this ad”
 
++ Opportunity for Explainable AI
+
++ Facebook’s “Why am I seeing this ad”
+]
+
+.pull-right[
+![](images/xai.png)
+]
 
 ---
 
-### Recommendations
-
-**Greater Transparency**
+### Greater Transparency
 
 ![](images/why.png)
 
+.seventyfive[
 [Source: Facebook Newsroom, 31st March 2019](https://newsroom.fb.com/news/2019/03/why-am-i-seeing-this/)
+]
 
 ---
 
 ### Future Research
 
-+ Research Project constrained by the number and type of social media platforms that we could research.
-+ Closed nature of the platform (Facebook)
-+ Terms of Service Restrictions (Twitter)
-+ Increasing knowledge gap which can only be answered through close collaboration with social media companies.
 
+.pull-left[
++ Research Project constrained by the number and type of social media platforms that we could research.
+
++ Closed nature of the platform (Facebook)
+
++ Terms of Service Restrictions (Twitter)
+
++ Increasing knowledge gap which can only be answered through close collaboration with social media companies.
+]
+
+
+.pull-right[
+![](images/fb_twitter.png)
+]
 
 ---
 
