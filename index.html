@@ -16,32 +16,43 @@ class: top, center, title-slide
 ---
 
 
-
-
-## Overview
-
-+ Personalisation Algorithms &amp; Filter Bubbles
-
-+ Research so far
-
-+ Filter Bubbles and Extremism
-
-+ Research Question &amp; Design
-
-+ Results
-
-+ Conclusions &amp; Recommendations
-
-+ Literature
-
-
----
-
 class: center, middle, inverse
 
 ## What are Filter bubbles? 
 
 ### And what's the problem?
+
+&lt;style&gt;
+.onehundredtwenty {
+  font-size: 120%;
+   }
+
+&lt;style&gt;
+.ninety {
+  font-size: 90%;
+   }
+   
+.eightyseven {
+  font-size: 87%;
+   }
+
+.eightyfive {
+  font-size: 85%;
+   }
+   
+.eighty {
+  font-size: 80%;
+   }
+   
+.seventyfive {
+  font-size: 75%;
+   }
+   
+.seventy {
+  font-size: 70%;
+   }
+&lt;/style&gt;
+
 
 ---
 
@@ -51,44 +62,7 @@ class: center, middle, inverse
 
 ![](images/filter upset.png)
 
----
 
-
-### What are Personalisation Algorithms?
-
-.pull-left[
-![](images/pariser.jpg)
-&lt;br&gt;Pariser 2011
-]
-
-
-+ Algorithms are responsible for content that users see in their feeds 
-
-+ Eli Pariser suggests that they can create a “filter bubble” effect or “autopropaganda”
-
-+ by controlling what users do and do not see it can – and is in fact, designed to – dramatically amplify confirmation bias
-
-+ The pre-filtering of content leads to bubbles in which people never view or read about opposing viewpoints
-
-+ Creates seperated spaces that make communication between opposing viewpoints harder: undermines democracy itself
-
-
----
-
-
-### What are Personalisation Algorithms?
-
-&lt;br&gt;
-
-The EU Group on Media Freedom and Pluralism notes that: 
-
-&gt; Increasing filtering mechanisms makes it more likely for people to only get news on subjects they are interested in, and with the perspective they identify with. It will also tend to create more insulated communities as isolated subsets within the overall public sphere. [...] Such developments undoubtedly have a potentially negative impact on democracy.
-
-*Vīķe-Freiberga, Däubler-Gmelin, Hammersley, &amp; Pessoa Maduro, 2013, p. 27*
-
-&lt;br&gt;
-
-**Filter bubbles are considered a concern at the highest level.**
 
 ---
 
@@ -128,19 +102,24 @@ There is a paucity of research studying the effects of personalisation algorithm
 ![](images/recommend_friends.png)
 ]
 
-+ Research on YouTube found that the recommender system could propel users into an immersive bubble of right-wing extremism within a few clicks (O’Callaghan et al., 2015)
+.eightyseven[
 
-+ Twitter’s “Who to Follow” recommendation was found to suggest violent extremist Islamist groups if the user followed al-Qaeda affiliate Jabhat al Nusra (Berger, 2013)
+&lt;br&gt;
 
-+ Facebook’s “Recommended Friends” function had likely actively connected at least two Islamic State supporters in South East Asia (Waters and Postings, 2018)
++ YouTube's recommended videos can propel users into an immersive bubble of right-wing extremism (O’Callaghan et al., 2015)
+
++ Twitter’s “Who to Follow” suggested violent extremist Islamist groups if the user followed al-Qaeda affiliated group (Berger, 2013)
+
++ Facebook’s “Recommended Friends” function had likely actively connected at least two Islamic State supporters in SE Asia (Waters and Postings, 2018)
+
+]
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
 
 The architecture of the platforms may facilitate closer interactions than would otherwise exist.
 
-
----
-
-&lt;img src="images/datasociety.jpg" width="1440" /&gt;
-&lt;br&gt;Becca Lewis 2018
 
 
 ---
@@ -159,36 +138,13 @@ class: center, middle, inverse
 
 &lt;img src="images/social_media_logos.png" width="1121" /&gt;
 
-**Research Design**
+**How to measure extremist content?**
 
-+ Experimental design with accounts on YouTube and Reddit 
+--
 
-+ Let them interact with different kinds of content as treatment.
++ Hand-coding content with Holbrook's Extremist Media Index
 
-The following user types are suggested:
-
-1. *Neutral Interaction Accounts* interact with neutral content 
-2. *Extreme Interaction Accounts* interact with extreme content 
-3. *Baseline Accounts* do nothing to establish a baseline
-
-+ Pull timelines/recommendations of each bot two times a day.
-
-
----
-
-### How to measure extremist content?
-
-Multiple pathways:
-
-+ Sentiment analysis can be used to identify extremist authors (Scrivens et al., 2018)
-
-+ Topic models to identify (far-right) extremist content (O’Callaghan et al., 2015)
-
-+ Hand-coding content for example with Holbrook's Extremist Media Index (Holbrook, 2015)
-
-+ Manually labelled data can also be used as training dataset for machine learning models
-
-Holbrooke's Extremism Media Index (2015)
+Holbrook's Extremism Media Index (2015)
 
 &lt;img src="images/holbrooke_index.png" width="1280" /&gt;
 
@@ -201,8 +157,6 @@ Holbrooke's Extremism Media Index (2015)
 + Extreme content is prioritized by the algorithm when interacting with extreme material
 
 **Methods**
-
-+ Difference-in-Difference Estimation for treatment effects
 
 + Count data modeled with the help of (quasi-)poisson regression
 
@@ -221,21 +175,21 @@ class: center, middle, inverse
 
 &lt;br&gt;
 
-+ Created 3 identical accounts
 
-+ Followed 10 XRW accounts; 10 Neutral
++ Experimental design 
+    + Created **THREE** identical accounts
+    + All follow same 10 XRW accounts; 10 Neutral
+    + Each account interacts with different kinds of content
 
-+ Visited the site twice per day for 2 weeks and collected data for the 18 Recommend Videos on the home page
+1. *Neutral Interaction Accounts* interact with neutral content 
+2. *Extreme Interaction Accounts* interact with extreme content 
+3. *Baseline Accounts* do nothing to establish a baseline
 
-+ Neutral Interaction Account interacted predominantly with *neutral content* after the first week
-
-+ Extreme Interaction Account interacted predominately with *extreme content* after the first week.
-
-+ Baseline Account continued to *not interact*.
++ Pull 18 Recommended  Videos of each account **two times a day** for *two weeks*.
 
 + Every piece of content gets a unique rank per session and an Extremist Media Index (EMI) Score (Holbrook, 2015)
 
-+ Two individuals rated the content with a Krippendorff's alpha of 0.77
++ Satisfactory interrater reliability between two individuals  (Krippendorff's alpha: 0.77)
 
 ---
 
@@ -257,18 +211,47 @@ Of the 1443 videos coded on YouTube
 
 Extreme content 2.47 (p &lt; 0.01) times more likely than moderate
 
-Extreme content ranked sig. higher (p &lt; 0.028) than moderate.
+After treatment, extreme content ranked sig. higher (p &lt; 0.028) than moderate
+     + Median Rank of Extreme content: 
+         + Before Treatment: 10 
+         + After Treatment: 5
 
 ]
 
-Figures show the EMI scores for each session with a rank from one to eighteen, depending on where the video appears on the “Recommended Videos” section as well as the percentage distribution of the three categories of content before and after each treatment.
+.seventyfive[
+
+Figure on the left shows the EMI scores for each session with a rank from one to eighteen, depending on where the video appears on the “Recommended Videos” section. Figure on the right shows the percentage distribution of the three categories of content before and after each treatment.
+
+]
+
+
 
 
 ---
 
 &lt;img src="images/youtube.png" width="150" /&gt;
 
-&lt;img src="images/yt_firstrank.png" width="3600" /&gt;
+&lt;img src="images/yt_firstrank_extreme.png" width="4000" /&gt;
+
+.seventyfive[
+
+Figure shows the first appearance of an **extreme** content piece for each session.
+
++ In the *neutral interaction account*
+    + **only three sessions** had an extreme content piece **after interaction** 
++ In the *extreme interaction account* 
+    + **all but one session** had an extreme content piece **after interaction**
+    + Almost all content shows up in the upper half (&lt; 8) of the recommendation list
+
+]
+
+---
+
+&lt;img src="images/youtube.png" width="150" /&gt;
+
+&lt;img src="images/pct_extreme.png" width="4800" /&gt;
+
+Figure shows how many sessions had at least **ONE** piece of extreme content.
 
 
 ---
@@ -364,25 +347,25 @@ class: center, middle, inverse
 
 ---
 
-### Conclusions &amp; Recommendations
+### Discussion
 
 
-**Filling the research gap in terms of filter bubbles and extremism**
+.pull-left[
++ Only YouTube has an effect which, after engaging with extreme content, prioritises it further.
 
-+ Research so far was mostly focused on news filter bubbles and only implicitly mentioned extremism or pathways into extremism
++ Users which engage with extreme and fringe content are more likely to be recommended more of the same. 
 
-+ Evidence suggests that interaction with extremist content might lead you down a path of seeing more and more extreme content
++ Extreme content is pushed up the ranking of recommended videos on the YouTube 
 
-**Improvements to already conducted study**
++ Support for O’Callaghan et al. (2015)
+]
 
-+ More accounts, Longer period
-    + Control for likes, shares, views etc.
 
-+ Use computational methods to measure extremism
+.pull-right[
 
-+ Additional Research Question:
+![](https://oilab.eu/wp-content/uploads/2019/06/nsg_05-06-2019-gif-1024x578.gif)
 
-&gt; Does changing online behavior successfully change the content that algorithm recommendations prioritize or do they inhibit change?
+]
 
 ---
 
@@ -444,12 +427,23 @@ Vīķe-Freiberga, V., Däubler-Gmelin, H., Hammersley, B., Pessoa Maduro, L.M.P.
 ---
 
 
+class: center, middle, inverse
+
+### Appendix
+
+---
+
 
 ### Facebook adds "Why am I seeing this" to posts
 
 ![](images/why.png)
 
 [Source: Facebook Newsroom, 31st March 2019](https://newsroom.fb.com/news/2019/03/why-am-i-seeing-this/)
+
+---
+
+&lt;img src="images/datasociety.jpg" width="1440" /&gt;
+&lt;br&gt;Becca Lewis 2018
 
 ---
 
@@ -462,6 +456,72 @@ This means that people tend to
 + later better remember the information (selective retention) 
 
 that is in line with their already existing ideas (cf. Zillmann and Bryant 1985)
+
+---
+
+### What are Personalisation Algorithms?
+
+.pull-left[
+![](images/pariser.jpg)
+&lt;br&gt;Pariser 2011
+]
+
+
++ Algorithms are responsible for content that users see in their feeds 
+
++ Eli Pariser suggests that they can create a “filter bubble” effect or “autopropaganda”
+
++ by controlling what users do and do not see it can – and is in fact, designed to – dramatically amplify confirmation bias
+
++ The pre-filtering of content leads to bubbles in which people never view or read about opposing viewpoints
+
++ Creates seperated spaces that make communication between opposing viewpoints harder: undermines democracy itself
+
+
+---
+
+
+### What are Personalisation Algorithms?
+
+&lt;br&gt;
+
+The EU Group on Media Freedom and Pluralism notes that: 
+
+&gt; Increasing filtering mechanisms makes it more likely for people to only get news on subjects they are interested in, and with the perspective they identify with. It will also tend to create more insulated communities as isolated subsets within the overall public sphere. [...] Such developments undoubtedly have a potentially negative impact on democracy.
+
+*Vīķe-Freiberga, Däubler-Gmelin, Hammersley, &amp; Pessoa Maduro, 2013, p. 27*
+
+&lt;br&gt;
+
+**Filter bubbles are considered a concern at the highest level.**
+
+
+---
+
+### How to measure extremist content?
+
+Multiple pathways:
+
++ Sentiment analysis can be used to identify extremist authors (Scrivens et al., 2018)
+
++ Topic models to identify (far-right) extremist content (O’Callaghan et al., 2015)
+
++ Hand-coding content for example with Holbrook's Extremist Media Index (Holbrook, 2015)
+
++ Manually labelled data can also be used as training dataset for machine learning models
+
+
+---
+
+&lt;img src="images/youtube.png" width="150" /&gt;
+
+&lt;img src="images/yt_firstrank.png" width="3600" /&gt;
+
+.seventyfive[
+
+Figure shows the first appearance of a piece of content (Moderate, Fringe or Extreme) for each session.
+
+]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
