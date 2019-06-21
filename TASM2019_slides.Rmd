@@ -210,16 +210,13 @@ knitr::include_graphics("images/youtube.png")
 
 Of the 1443 videos coded on YouTube
 
-+ 949 (65.77%) are rated as moderate
-+ 409 (28.34%) were judged to be fringe 
-+ 85 (5.89%) were deemed to be extremist 
++ 949 (65.77%) moderate
++ 409 (28.34%) fringe 
++ 85 (5.89%) extremist 
 
 Extreme content 2.47 (p < 0.01) times more likely than moderate
 
 After treatment, extreme content ranked sig. higher (p < 0.028) than moderate
-     + Median Rank of Extreme content: 
-         + Before Treatment: 10 
-         + After Treatment: 5
 
 ]
 
@@ -230,30 +227,6 @@ Figure on the left shows the EMI scores for each session with a rank from one to
 ]
 
 
-
-
----
-
-```{r, out.width=150, echo = F}
-knitr::include_graphics("images/youtube.png")
-```
-
-```{r, echo = F, warning = F, message=F}
-
-knitr::include_graphics("images/yt_firstrank_extreme.png")
-```
-
-.seventyfive[
-
-Figure shows the first appearance of an **extreme** content piece for each session.
-
-+ In the *neutral interaction account*
-    + **only three sessions** had an extreme content piece **after interaction** 
-+ In the *extreme interaction account* 
-    + **all but one session** had an extreme content piece **after interaction**
-    + Almost all content shows up in the upper half (< 8) of the recommendation list
-
-]
 
 ---
 
@@ -266,8 +239,16 @@ knitr::include_graphics("images/youtube.png")
 knitr::include_graphics("images/pct_extreme.png")
 ```
 
-Figure shows how many sessions had at least **ONE** piece of extreme content.
 
+.seventyfive[
+
++ In the *neutral interaction account*
+    + **only three sessions** had an extreme content piece **after interaction** 
++ In the *extreme interaction account* 
+    + **all but one session** had an extreme content piece **after interaction**
+    + Almost all content shows up in the upper half (< 8) of the recommendation list
+
+]
 
 ---
 
@@ -277,21 +258,21 @@ knitr::include_graphics("images/reddit-logo.jpg")
 
 <br>
 
-+ Created 3 identical accounts
++ Experimental design 
+    + Created **THREE** identical accounts
+    + All follow same 10 XRW subreddits; 10 Neutral
+    + Each account interacts with different kinds of content
 
-+ Followed 10 XRW subreddits; 10 Neutral
 
 + Visited the site twice per day for 2 weeks and collected data for the 25 “Popular” threads on the home page
 
-+ Neutral Interaction Account interacted predominantly with *neutral content* after the first week
-
-+ Extreme Interaction Account interacted predominately with *extreme content* after the first week.
-
-+ Baseline Account continued to *not interact*.
+1. *Neutral Interaction Accounts* interact with neutral content 
+2. *Extreme Interaction Accounts* interact with extreme content 
+3. *Baseline Accounts* do nothing to establish a baseline
 
 + Every piece of content gets a unique rank per session and an Extremist Media Index (EMI) Score (Holbrook, 2015)
 
-+ Two individuals rated the content with a Krippendorff's alpha of 0.77
++ Satisfactory interrater reliability between two individuals  (Krippendorff's alpha: 0.77)
 
 ---
 
@@ -364,7 +345,7 @@ No statistically sig. difference between extreme content in any of the timelines
 
 class: center, middle, inverse
 
-## Conclusions & Future Research
+## Discussion
 
 ---
 
@@ -384,29 +365,110 @@ class: center, middle, inverse
 
 .pull-right[
 
-![](https://oilab.eu/wp-content/uploads/2019/06/nsg_05-06-2019-gif-1024x578.gif)
+![](images/yt_screen.png)
+ 
+<a href="https://oilab.eu/4chans-youtube-a-fringe-perspective-on-youtubes-great-purge-of-2019/">
+  <img src="https://oilab.eu/wp-content/uploads/2019/06/nsg_05-06-2019-gif.gif">
+</a>
+.seventyfive[
+[OILAB](https://oilab.eu/4chans-youtube-a-fringe-perspective-on-youtubes-great-purge-of-2019/): Availability of YouTube videos posted in Nazi threads on 4chan/pol/ on 5 and 6 June 2019.
+]
 
 ]
 
 ---
 
-### Conclusions & Recommendations
+### Discussion
 
 
-**Linking research to real-life implications:**
+.pull-left[
++ Safe haven for right wing extremists and home to terrorists such as Pittsburgh Synagogue Shooter
 
-+ The psychological aspects of how long it takes people to be influenced by content, or what type of content is the most influential would be a opportunity to supplement the research in a case study
++ Anecdotally, by far the most extreme of the platforms.
+
++ Lack of evidence of Gab’s algorithm suggests that it is the user’s choices which are responsible for this environment.
+
+]
 
 
-**Recommendations**
+.pull-right[
 
-+ Limited features/demonetise
+![](images/Gab-Logo.jpg)
+ 
 
-+ Transparency – “Why have I been recommended this?”
+![](images/robert_bowers.png)
 
-+ More research – especially on closed platforms
+]
 
-+ CVE approaches – Redirection
+
+
+---
+
+class: center, middle, inverse
+
+## Recommendations
+
+---
+
+### Recommendations
+
+**Removing Problematic Content from Recommendations**
+
+.pull-left[
++ Content which does not clearly violate site rules or policies
++ Google’s “limited features” policy
++ Reddit’s “Quarantine” System
++ Opt in content
++ No monetisation or recommendation
++ Constructive balance between freedom of speech and harmful content.
++ Need for Clarity and Consistency 
+]
+
+.pull-right[
+
+]
+
+---
+
+### Recommendations
+
+**Ensuring Video Recommendations are from Quality Sources**
+
++ Provide users with more context and alternative perspectives
++ Google introduced changes to make quality count and give more context to searches.
++ Provide high quality sources on the same topic
++ Jigsaw’s redirect method as a model.
+
+
+---
+
+### Recommendations
+
+**Greater Transparency**
+
++ Users should have a clear option to request why content has been recommended to them.
++ Opportunity for Explainable AI
++ Facebook’s “Why am I seeing this ad”
+
+
+---
+
+### Recommendations
+
+**Greater Transparency**
+
+![](images/why.png)
+
+[Source: Facebook Newsroom, 31st March 2019](https://newsroom.fb.com/news/2019/03/why-am-i-seeing-this/)
+
+---
+
+### Future Research
+
++ Research Project constrained by the number and type of social media platforms that we could research.
++ Closed nature of the platform (Facebook)
++ Terms of Service Restrictions (Twitter)
++ Increasing knowledge gap which can only be answered through close collaboration with social media companies.
 
 
 ---
@@ -548,5 +610,29 @@ knitr::include_graphics("images/yt_firstrank.png")
 .seventyfive[
 
 Figure shows the first appearance of a piece of content (Moderate, Fringe or Extreme) for each session.
+
+]
+
+
+---
+
+```{r, out.width=150, echo = F}
+knitr::include_graphics("images/youtube.png")
+```
+
+```{r, echo = F, warning = F, message=F}
+
+knitr::include_graphics("images/yt_firstrank_extreme.png")
+```
+
+.seventyfive[
+
+Figure shows the first appearance of an **extreme** content piece for each session.
+
++ In the *neutral interaction account*
+    + **only three sessions** had an extreme content piece **after interaction** 
++ In the *extreme interaction account* 
+    + **all but one session** had an extreme content piece **after interaction**
+    + Almost all content shows up in the upper half (< 8) of the recommendation list
 
 ]
