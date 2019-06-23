@@ -183,15 +183,16 @@ knitr::include_graphics("images/youtube.png")
     + All follow same 10 XRW accounts; 10 Neutral
     + Each account interacts with different kinds of content
 
-1. *Neutral Interaction Accounts* interact with neutral content 
-2. *Extreme Interaction Accounts* interact with extreme content 
-3. *Baseline Accounts* do nothing to establish a baseline
+1. *Neutral Interaction Account* predominantly interact with neutral content 
+2. *Extreme Interaction Account* predominantly interact with extreme content 
+3. *Baseline Account* do nothing to establish a baseline
 
 + Pull 18 Recommended  Videos of each account **two times a day** for *two weeks*.
 
 + Every piece of content gets a unique rank per session and an Extremist Media Index (EMI) Score (Holbrook, 2015)
 
-+ Satisfactory interrater reliability between two individuals  (Krippendorff's alpha: 0.77)
++ Satisfactory interrater reliability between two individuals  
+    + Krippendorff's alpha: 0.77 across all platforms
 
 ---
 
@@ -208,7 +209,8 @@ knitr::include_graphics("images/youtube.png")
 .pull-right[
 
 
-.eightyfive[
+
+Overview of the data:
 
 Of the 1443 videos coded on YouTube (749 unique)
 
@@ -216,15 +218,6 @@ Of the 1443 videos coded on YouTube (749 unique)
 + 409 (28.34%) fringe 
 + 85 (5.89%) extremist 
 
-After **extreme interaction** treatment:
-
-+ Fringe content 1.72 (p < 0.01) times more likely than before
-
-+ Extreme content 2.47 (p < 0.01) times more likely than before
-
-+ Extreme content ranked sig. higher (p < 0.028) than moderate
-
-]
 
 ]
 
@@ -235,6 +228,27 @@ Figure on the left shows the EMI scores for each session with a rank from one to
 ]
 
 
+---
+
+```{r, out.width=150, echo = F}
+knitr::include_graphics("images/youtube.png")
+```
+
+
+```{r, echo = F, warning = F, message=F, out.height=400, out.width=600, fig.align='center'}
+
+knitr::include_graphics("images/frq_plot.png")
+```
+
+
+.seventyfive[
+
+After **extreme interaction** treatment:
+
++ Fringe content 1.37 (p < 0.01) times more likely than before
++ Extreme content 2.00 (p < 0.01) times more likely than before
+
+]
 
 ---
 
@@ -254,7 +268,27 @@ knitr::include_graphics("images/pct_extreme.png")
     + **only three sessions** had an extreme content piece **after interaction** 
 + In the *extreme interaction account* 
     + **all but one session** had an extreme content piece **after interaction**
-    + Almost all content shows up in the upper half (< 8) of the recommendation list
+
+]
+
+---
+
+```{r, out.width=150, echo = F}
+knitr::include_graphics("images/youtube.png")
+```
+
+```{r, echo = F, warning = F, message=F, out.height=400, out.width=800, fig.align='center'}
+
+knitr::include_graphics("images/eia_rank_extreme.png")
+```
+
+
+.seventyfive[
+ 
++ In the *extreme interaction account* 
+    + Extreme content ranked sig. higher (p < 0.028) than moderate
+    + Almost all extreme content shows up in the upper half (< 8) of the recommendations 
+      (Median Rank = 5)
 
 ]
 
@@ -274,13 +308,16 @@ knitr::include_graphics("images/reddit-logo.jpg")
 
 + Visited the site twice per day for 2 weeks and collected data for 25 threads on the *“Best”* personalized timeline
 
-1. *Neutral Interaction Accounts* interact with neutral content 
-2. *Extreme Interaction Accounts* interact with extreme content 
-3. *Baseline Accounts* do nothing to establish a baseline
+1. *Neutral Interaction Account* predominantly interact with neutral content 
+2. *Extreme Interaction Account* predominantly interact with extreme content 
+3. *Baseline Account* do nothing to establish a baseline
 
 + Every piece of content gets a unique rank per session and an Extremist Media Index (EMI) Score (Holbrook, 2015)
 
-+ Satisfactory interrater reliability between two individuals  (Krippendorff's alpha: 0.77)
++ Satisfactory interrater reliability between two individuals  
+    + Krippendorff's alpha: 0.77 across all platforms
+
+
 
 ---
 
@@ -481,7 +518,7 @@ class: center, middle, inverse
 
 + Opportunity for Explainable AI
 
-+ Facebook’s “Why am I seeing this ad”
++ Facebook’s “Why am I seeing this ad/post”
 ]
 
 .pull-right[
@@ -531,6 +568,8 @@ class: center, middle, inverse
 
 Bakshy, E., Messing, S., & Adamic, L. A. (2015). Exposure to ideologically diverse news and opinion on Facebook. Science, 348(6239), 1130-1132.
 
+Berger, J. M. (2013) ‘Zero Degrees of al Qaeda’, Foreign Policy, (August 14). Available at: http://foreignpolicy.com/2013/08/14/zero-degrees-of-al-qaeda/.
+
 Courtois, C., Slechten, L., & Coenen, L. (2018). Challenging Google Search filter bubbles in social and political information: Disconforming evidence from a digital methods case study. Telematics and Informatics, 35(7), 2006-2015.
 
 Guess, A., Lyons, B., Nyhan, B., & Reifler, J. (2018). Avoiding the echo chamber about echo chambers: Why selective exposure to like-minded political news is less prevalent than you think. Document of the Knight Foundation. Retrieved from: https://www.researchgate.net/publication/330144926_Avoiding_the_echo_chamber_about_echo_chambers_Why_selective_exposure_to_like-minded_political_news_is_less_prevalent_than_you_think
@@ -545,13 +584,13 @@ Haim, M., Graefe, A., & Brosius, H. B. (2018). Burst of the filter bubble? Effec
 
 Holbrook, D. (2015). Designing and Applying an ‘Extremist Media Index’. Perspectives On Terrorism, 9(5). Retrieved from http://www.terrorismanalysts.com/pt/index.php/pot/article/view/461
 
-Lewis, R. (2018). Alternative influence: Broadcasting the reactionary right on YouTube. Data & Society, Sept, 18.
-
 Möller, J., Trilling, D., Helberger, N., & van Es, B. (2018). Do not blame it on the algorithm: an empirical assessment of multiple recommender systems and their impact on content diversity. Information, Communication & Society, 21(7), 959-977.
 
-Pariser, E. (2011). The filter bubble: What the Internet is hiding from you. Penguin UK.
+O’Callaghan, Derek, et al. "Down the (white) rabbit hole: The extreme right and online recommender systems." Social Science Computer Review 33.4 (2015): 459-478.
 
 Vīķe-Freiberga, V., Däubler-Gmelin, H., Hammersley, B., Pessoa Maduro, L.M.P. (2013). A free and pluralistic media to sustain European democracy. Retrieved from http://ec.europa.eu/digital-agenda/sites/digital-agenda/files/HLG%20Final%20Report.pdf
+
+Waters, G. and Postings, R. (2018) Spiders of the Caliphate: Mapping the Islamic State’s Global Support Network on Facebook, Counter-Extremism Project.
 
 
 ---
