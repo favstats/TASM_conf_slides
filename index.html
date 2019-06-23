@@ -82,13 +82,13 @@ class: center, middle, inverse
 
 The empirical evidence of a "filter bubble" effect is less clear and decidedly less pessimistic. 
 
-+ Findings from a study on Facebook suggest filter bubbles are generated less by algorithms than by individual user decisions (Bakshy, Messing and Adamic, 2015). 
++ Study on Facebook suggests filter bubbles are generated less by algorithms than by individual user decisions (Bakshy, Messing and Adamic, 2015). 
 
 + Research analysing Google news recommendation suggests essential information is not omitted (Haim, Graefe and Brosius, 2018) 
 
 + Personalised recommendations show no reduction in diversity over human editors (Möller et al., 2018). 
 
-+ Finally, research on Google search results also finds factors such as time of search were more explanatory than prior behaviour and preferences (Courtois, Slechten and Coenen, 2018).
++ Research on Google search results also finds factors such as time of search were more explanatory than prior behaviour and preferences (Courtois, Slechten and Coenen, 2018).
 
 Why the discrepancy?
 
@@ -131,11 +131,11 @@ The architecture of the platforms may facilitate closer interactions than would 
 
 class: center, middle, inverse
 
-## Research Design &amp; Results 
+## Research Question &amp; Design 
 
 ---
 
-### Research Design &amp; Results 
+### Research Question
 
 &gt; Do algorithms promote extremist material once a user begins to interact with such content?
 
@@ -169,26 +169,35 @@ Holbrook's Extremism Media Index (2015)
 
 ---
 
-&lt;img src="images/youtube.png" width="150" /&gt;
+### Research Design
 
-&lt;br&gt;
-
-
-+ YouTube Experimental design 
++ YouTube/Reddit Research design 
     + Created **THREE** identical accounts
-    + All follow same 10 XRW accounts; 10 Neutral
+    + All follow same 10 XRW channels/subreddtis; 10 Neutral
     + Each account interacts with different kinds of content
 
-1. *Neutral Interaction Account* predominantly interact with neutral content 
-2. *Extreme Interaction Account* predominantly interact with extreme content 
+1. *Neutral Interaction Account* mostly interacts with neutral content 
+2. *Extreme Interaction Account* mostly interacts with extreme content 
 3. *Baseline Account* do nothing to establish a baseline
 
-+ Pull 18 Recommended  Videos of each account **two times a day** for *two weeks*.
++ On YouTube:
+   + Pull 18 Recommended Videos of each account
++ On Reddit:
+   + 25 threads on the *“Best”* personalized timeline 
++ *Two times a day* for *two weeks* (28 sessions in total)
 
 + Every piece of content gets a unique rank per session and an Extremist Media Index (EMI) Score (Holbrook, 2015)
 
 + Satisfactory interrater reliability between two individuals  
     + Krippendorff's alpha: 0.77 across all platforms
+
+
+---
+
+class: center, middle, inverse
+
+## Results
+
 
 ---
 
@@ -208,9 +217,9 @@ Overview of the data:
 
 Of the 1443 videos coded on YouTube (749 unique)
 
-+ 949 (65.77%) moderate
-+ 409 (28.34%) fringe 
-+ 85 (5.89%) extremist 
++ 65.77% moderate
++ 28.34% fringe 
++ 5.89% extremist 
 
 
 ]
@@ -248,10 +257,10 @@ After **extreme interaction** treatment:
 
 .seventyfive[
 
-+ In the *neutral interaction account*
-    + **only three sessions** had an extreme content piece **after interaction** 
-+ In the *extreme interaction account* 
-    + **all but one session** had an extreme content piece **after interaction**
++ In the **neutral interaction account**
+    + **only three sessions** had an extreme content piece after interaction 
++ In the **extreme interaction account** 
+    + **all but one session** had an extreme content piece after interaction
 
 ]
 
@@ -264,35 +273,13 @@ After **extreme interaction** treatment:
 
 .seventyfive[
  
-+ In the *extreme interaction account* 
-    + Extreme content ranked sig. higher (p &lt; 0.028) than moderate
-    + Almost all extreme content shows up in the upper half (&lt; 8) of the recommendations 
++ In the **extreme interaction account**
+    + Extreme content ranked sig. higher (p = 0.028) than moderate
+    + Almost all extreme content shows up in the upper half (&lt; 8) of the recommendations      
       (Median Rank = 5)
 
 ]
 
----
-
-&lt;img src="images/reddit-logo.jpg" width="150" /&gt;
-
-&lt;br&gt;
-
-+ Reddit Experimental design 
-    + Created **THREE** identical accounts
-    + All follow same 10 XRW subreddits; 10 Neutral
-    + Each account interacts with different kinds of content
-
-
-+ Visited the site twice per day for 2 weeks and collected data for 25 threads on the *“Best”* personalized timeline
-
-1. *Neutral Interaction Account* predominantly interact with neutral content 
-2. *Extreme Interaction Account* predominantly interact with extreme content 
-3. *Baseline Account* do nothing to establish a baseline
-
-+ Every piece of content gets a unique rank per session and an Extremist Media Index (EMI) Score (Holbrook, 2015)
-
-+ Satisfactory interrater reliability between two individuals  
-    + Krippendorff's alpha: 0.77 across all platforms
 
 
 
@@ -582,22 +569,7 @@ class: center, middle, inverse
 
 [Source: Facebook Newsroom, 31st March 2019](https://newsroom.fb.com/news/2019/03/why-am-i-seeing-this/)
 
----
 
-&lt;img src="images/datasociety.jpg" width="1440" /&gt;
-&lt;br&gt;Becca Lewis 2018
-
----
-
-### Selective Exposure
-
-This means that people tend to 
-
-+ select content (selective exposure),
-+ interpret it (selective perception) and 
-+ later better remember the information (selective retention) 
-
-that is in line with their already existing ideas (cf. Zillmann and Bryant 1985)
 
 ---
 
@@ -677,12 +649,20 @@ Figure shows the first appearance of a piece of content (Moderate, Fringe or Ext
 Figure shows the first appearance of an **extreme** content piece for each session.
 
 + In the *neutral interaction account*
-    + **only three sessions** had an extreme content piece **after interaction** 
+    + **only three sessions** had an extreme content piece after interaction 
 + In the *extreme interaction account* 
-    + **all but one session** had an extreme content piece **after interaction**
+    + **all but one session** had an extreme content piece after interaction
     + Almost all content shows up in the upper half (&lt; 8) of the recommendation list
 
 ]
+
+---
+
+&lt;img src="images/youtube.png" width="150" /&gt;
+
+Poisson Regression Results:
+
+&lt;img src="images/coeff_poisson3.png" width="6000" /&gt;
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
