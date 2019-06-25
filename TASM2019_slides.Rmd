@@ -11,7 +11,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-      slideNumberFormat: "%current%"
+      slideNumberFormat: "%current%<br>"
 ---
 
 class: center, middle, inverse
@@ -68,7 +68,10 @@ class: center, middle, inverse
 
 ![](images/filter upset.png)
 
-
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
 
 ---
 
@@ -95,6 +98,11 @@ The empirical evidence of a "filter bubble" effect is less clear and decidedly l
 Why the discrepancy?
 
 + "Echo chamber about echo chambers" (Guess et al. 2018)
+
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
 
 ---
 
@@ -126,7 +134,10 @@ There is a paucity of research studying the effects of personalisation algorithm
 
 The architecture of the platforms may facilitate closer interactions than would otherwise exist.
 
-
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
 
 ---
 
@@ -148,6 +159,11 @@ knitr::include_graphics("images/social_media_logos.png")
 
 **How to measure extremist content?**
 
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 --
 
 + Hand-coding content with Holbrook's Extremist Media Index
@@ -159,6 +175,10 @@ knitr::include_graphics("images/holbrooke_index.png")
 ```
 
 
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
 
 ---
 
@@ -195,6 +215,11 @@ Each account does nothing for a week and after Session 14 we apply different tre
 
 ]
 
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 ---
 
 ### Research Design & Methods
@@ -213,6 +238,11 @@ Each account does nothing for a week and after Session 14 we apply different tre
 
 + Satisfactory interrater reliability between two individuals  
     + Krippendorff's alpha: 0.77 across all platforms
+    
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
 
 ---
 
@@ -254,6 +284,37 @@ Figure on the left shows the EMI scores for each session with a rank from one to
 
 ]
 
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
+---
+
+```{r, out.width=150, echo = F}
+knitr::include_graphics("images/youtube.png")
+```
+
+
+```{r, echo = F, warning = F, message=F, out.height=400, out.width=600, fig.align='center'}
+
+knitr::include_graphics("images/irr_plot.png")
+```
+
+.seventyfive[
+
+After **extreme interaction** treatment:
+
++ The incident rate for *fringe content* is 1.72 times the incident rate for the reference group
++ The incident rate for *extreme content* is 2.47 times the incident rate for the reference group
+
+]
+
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 
 ---
 
@@ -277,6 +338,11 @@ After **extreme interaction** treatment:
 
 ]
 
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 ---
 
 ```{r, out.width=150, echo = F}
@@ -297,6 +363,11 @@ knitr::include_graphics("images/pct_extreme.png")
     + **all but one session** had an extreme content piece after interaction
 
 ]
+
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
 
 ---
 
@@ -319,7 +390,10 @@ knitr::include_graphics("images/eia_rank_extreme.png")
 
 ]
 
-
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
 
 
 ---
@@ -349,6 +423,10 @@ No sig. difference in ranking of content
 
 ]
 
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
 
 ---
 
@@ -385,7 +463,10 @@ Collected data over five sessions
 No statistically sig. difference between extreme & non-extreme content in any of the timelines
 
 
-
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
 
 ---
 
@@ -426,6 +507,11 @@ class: center, middle, inverse
 
 ]
 
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 ---
 
 ### Discussion
@@ -451,7 +537,10 @@ class: center, middle, inverse
 
 ]
 
-
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
 
 ---
 
@@ -491,6 +580,11 @@ class: center, middle, inverse
 ]
 ]
 
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 ---
 
 ### Recommendations
@@ -513,6 +607,11 @@ class: center, middle, inverse
 ![](images/redirect.png)
 ]
 
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 ---
 
 ### Recommendations
@@ -532,6 +631,11 @@ class: center, middle, inverse
 ![](images/xai.png)
 ]
 
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 ---
 
 ### Greater Transparency
@@ -542,13 +646,18 @@ class: center, middle, inverse
 [Source: Facebook Newsroom, 31st March 2019](https://newsroom.fb.com/news/2019/03/why-am-i-seeing-this/)
 ]
 
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
+
 ---
 
 ### Future Research
 
 
 .pull-left[
-+ More accounts over a longer period of tim
++ More accounts over a longer period of time
 
 + Research Project constrained by the number and type of social media platforms that we could research.
 
@@ -563,6 +672,11 @@ class: center, middle, inverse
 .pull-right[
 ![](images/fb_twitter.png)
 ]
+
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
 
 ---
 
@@ -585,6 +699,10 @@ Guess, A., Lyons, B., Nyhan, B., & Reifler, J. (2018). Avoiding the echo chamber
 
 Haim, M., Graefe, A., & Brosius, H. B. (2018). Burst of the filter bubble? Effects of personalization on the diversity of Google News. Digital Journalism, 6(3), 330-343.
 
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
 
 ---
 
@@ -601,6 +719,10 @@ Vīķe-Freiberga, V., Däubler-Gmelin, H., Hammersley, B., Pessoa Maduro, L.M.P.
 
 Waters, G. and Postings, R. (2018) Spiders of the Caliphate: Mapping the Islamic State’s Global Support Network on Facebook, Counter-Extremism Project.
 
+<div class="my-footer"><span>Personalisation Algorithms & Extremist Content Online   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+</span></div> 
 
 ---
 
