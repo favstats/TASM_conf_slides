@@ -834,6 +834,8 @@ Figure shows the first appearance of an **extreme** content piece for each sessi
 + In the *extreme interaction account* 
     + **all but one session** had an extreme content piece after interaction
     + Almost all content shows up in the upper half (< 8) of the recommendation list
+    
+    (Median Rank = 5)
 
 ]
 
